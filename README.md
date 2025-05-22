@@ -51,3 +51,5 @@ uv run run.py
 
 Once the server is running, explore the interactive API documentation at:
 👉 http://127.0.0.1:8000/docs
+
+![alt text]({94A0316C-4F33-4E9B-8337-8BB13EC27761}.png)
