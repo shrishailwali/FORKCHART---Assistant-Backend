@@ -1,24 +1,20 @@
-🚀 FORKCHART – Assistant Backend
-A modular and scalable FastAPI backend for an AI Assistant application. Built with clean architecture principles, it provides user account management, AI-powered chat capabilities, and seamless MongoDB integration.
+<h1 align="center">🤖 FORKCHART – Assistant Backend</h1> <p align="center"> A modular and scalable <strong>FastAPI</strong> backend built for intelligent AI-powered assistants.<br/> Supports user account management, real-time chat, and seamless MongoDB integration. </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.11+-blue?style=flat&logo=python" /> <img src="https://img.shields.io/badge/FastAPI-🚀-green?style=flat&logo=fastapi" /> <img src="https://img.shields.io/badge/MongoDB-🧩-brightgreen?style=flat&logo=mongodb" /> <img src="https://img.shields.io/badge/uv-Fast%20Installer-yellow?style=flat" /> </p>
 
-✨ Features
+🔥 Key Features
 🔐 User Account Module
-Manage users with robust models, schemas, and API endpoints.
+Easily manage user registration, login, and profile operations with clean schema and service layers.
 
-💬 Chat Module
-AI-driven chat functionality for intelligent user interaction.
+💬 AI Chat Module
+Integrate conversational AI using a powerful, pluggable architecture to support various AI providers.
 
-⚙️ Modular Architecture
-Clean separation of concerns: models, schemas, views, and services.
+⚙️ Clean Modular Architecture
+Follows separation of concerns across models, schemas, views, and services for scalability and maintenance.
 
-🧩 MongoDB Integration
-Efficient and scalable NoSQL database support using pymongo.
+🧩 MongoDB Support
+Utilizes pymongo for fast, scalable document-based storage.
 
-⚡ FastAPI Framework
-Fast, modern, and intuitive Python web framework.
-
-📦 uv Package Manager
-Ultra-fast Python package installer for seamless dependency management.
+⚡ Powered by FastAPI
+High-performance web framework with automatic interactive docs and async support.
 
 📦 Requirements
 Python 3.11+
