@@ -1,62 +1,57 @@
-FORKCHART - Assistant Backend
+🚀 FORKCHART – Assistant Backend
+A modular and scalable FastAPI backend for an AI Assistant application. Built with clean architecture principles, it provides user account management, AI-powered chat capabilities, and seamless MongoDB integration.
 
-This is a modular, scalable FastAPI backend for an AI Assistant application. It includes features for user account management, AI-powered chat services, and integration with MongoDB.
+✨ Features
+🔐 User Account Module
+Manage users with robust models, schemas, and API endpoints.
 
-🚀 Features
-🔐 User Account Module – Handles user models, schemas, and API views.
+💬 Chat Module
+AI-driven chat functionality for intelligent user interaction.
 
-💬 Chat Module – Provides chat services and integration for AI-based interactions.
+⚙️ Modular Architecture
+Clean separation of concerns: models, schemas, views, and services.
 
-⚙️ Modular Architecture – Clean separation between models, schemas, views, and services.
+🧩 MongoDB Integration
+Efficient and scalable NoSQL database support using pymongo.
 
-🧩 MongoDB Integration – Uses MongoDB for data persistence.
+⚡ FastAPI Framework
+Fast, modern, and intuitive Python web framework.
 
-⚡ FastAPI – High-performance API framework for Python 3.11+.
+📦 uv Package Manager
+Ultra-fast Python package installer for seamless dependency management.
 
-📦 uv Package Manager – Ultra-fast Python package installer.
-
-new/
-├── app/
-│   ├── account/
-│   │   ├── accountModel.py
-│   │   ├── accountSchema.py
-│   │   └── accountView.py
-│   ├── chat/
-│   │   ├── chatModel.py
-│   │   ├── chatSchema.py
-│   │   ├── chatView.py
-│   │   └── chat_service.py
-│   └── main.py
-├── config.py                       # App configuration
-├── db/
-│   └── mongodb.py/postgresql.py    # MongoDB connection
-├── run.py                          # Entry point for the app
-└── requirment.txt                  # Project dependencies
+📦 Requirements
+Python 3.11+
+FastAPI
+pymongo
+postgresql
+bcrypt, etc
+uv (Python package manager)
 
 🛠️ Installation
-Clone the repository:
+Clone the repository and navigate into the project directory:
+
 
 git clone https://github.com/shrishailwali/FORKCHART---Assistant-Backend.git
-cd your-repo-name/new
+cd FORKCHART---Assistant-Backend/new
 
 ⚙️ Configuration
-Edit the config.py file to configure MongoDB settings and any environment variables required for your application.
+Configure your environment settings in the config.py file:
+
+
+MongoDB:
+
+MONGO_URI = "mongodb://localhost:27017"
+DB_NAME = "your_database_name"
+
+Postgresql DB:
+SQLALCHEMY_DATABASE = "postgresql://postgres:postgres@localhost:5432/forkchat"
+# Add any additional environment configs here
+
 
 🧪 Running the Application
-Run the FastAPI application with:
+Start the FastAPI server using uv:
 uv run run.py
 
-Visit the docs at:
-http://127.0.0.1:8000/docs
-
-
-📌 Requirements
-Python 3.11+
-
-FastAPI
-
-pymongo
-
-uv (package manager)
-
-![alt text]({8014E9A9-3D61-4A93-8807-42F3C1C198A7}.png)
+Once the server is running, explore the interactive API documentation at:
+👉 http://127.0.0.1:8000/docs
